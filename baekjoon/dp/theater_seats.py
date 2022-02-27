@@ -1,3 +1,9 @@
+"""
+Baekjoon 2302 극장 좌석
+
+"""
+
+
 def fibonacci(n):
     if n == 0:
         return 1
