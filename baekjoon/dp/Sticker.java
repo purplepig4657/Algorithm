@@ -38,11 +38,11 @@ public class Sticker {
         for (int testCase = 0; testCase < T; testCase++) {
             int n = Integer.parseInt(br.readLine());
             int[][] sticker = new int[2][n];
-            String[] sticker_line1 = br.readLine().split(" ");
-            String[] sticker_line2 = br.readLine().split(" ");
+            String[] stickerLine1 = br.readLine().split(" ");
+            String[] stickerLine2 = br.readLine().split(" ");
             for (int i = 0; i < n; i++) {
-                sticker[0][i] = Integer.parseInt(sticker_line1[i]);
-                sticker[1][i] = Integer.parseInt(sticker_line2[i]);
+                sticker[0][i] = Integer.parseInt(stickerLine1[i]);
+                sticker[1][i] = Integer.parseInt(stickerLine2[i]);
             }
             System.out.println(solution(n, sticker));
         }
